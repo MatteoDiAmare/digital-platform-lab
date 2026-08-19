@@ -30,6 +30,28 @@ Course plans, presentations, assessment instructions, and student submissions re
 - Do not add personal data, credentials, API keys, or production data.
 - Each lab must state what to observe, what to change, and how to verify the result.
 
+## Run the lab
+
+The lab requires Node.js 20 or later. It has no external runtime dependencies.
+
+```bash
+npm start
+```
+
+Open <http://localhost:3000> and follow the instructions in `labs/01-dataflow/README.md`.
+
+Run the automated checks with:
+
+```bash
+npm test
+```
+
+## StackBlitz
+
+Open a fresh browser-based copy:
+
+<https://stackblitz.com/fork/github/MatteoDiAmare/digital-platform-lab>
+
 ## Status
 
-The repository currently contains the planned directory structure. Application code and lab instructions will be added and tested before they are published in itslearning.
+The pilot application implements one observable client-to-server event flow. The remaining labs currently document their intended scope and will be implemented as the lesson plans are finalised.

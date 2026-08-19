@@ -1,0 +1,13 @@
+{
+  "name": "digital-platform-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Browser and server lab for the IHM course Teknik för digitala plattformar",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

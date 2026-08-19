@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Digital Platform Lab</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <header class="page-header">
+        <p class="eyebrow">Digital Platform Lab</p>
+        <h1>Trace one action through the platform</h1>
+        <p>
+          Open the browser developer tools, select the Network panel, and then send
+          the event.
+        </p>
+      </header>
+
+      <section class="card" aria-labelledby="offering-title">
+        <div>
+          <p class="eyebrow">Example offering</p>
+          <h2 id="offering-title">Introduction to digital platforms</h2>
+          <p>A synthetic booking event used for observation and debugging.</p>
+        </div>
+        <button id="booking-button" type="button">Send booking event</button>
+      </section>
+
+      <section class="card log-card" aria-labelledby="event-log-title">
+        <div>
+          <p class="eyebrow">Browser view</p>
+          <h2 id="event-log-title">Event log</h2>
+        </div>
+        <p id="status" class="status" aria-live="polite">No event has been sent.</p>
+        <pre id="event-log">Waiting for a user action.</pre>
+      </section>
+    </main>
+  </body>
+</html>
