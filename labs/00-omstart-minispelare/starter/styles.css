@@ -1,0 +1,54 @@
+:root {
+  color-scheme: dark;
+  font-family: system-ui, sans-serif;
+  background: #151a22;
+  color: #ffffff;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.player {
+  width: min(36rem, calc(100% - 3rem));
+  padding: 2.5rem;
+  background: #202631;
+  border-radius: 1rem;
+  box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 35%);
+}
+
+.eyebrow {
+  color: #aeb8c7;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.track {
+  color: #d8dee7;
+  font-size: 1.2rem;
+}
+
+button {
+  padding: 0.9rem 1.4rem;
+  border: 0;
+  border-radius: 0.5rem;
+  background: #3d8dff;
+  color: #ffffff;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #67a5ff;
+}
+
+pre {
+  overflow-x: auto;
+  padding: 1rem;
+  background: #111318;
+  border-radius: 0.5rem;
+}
